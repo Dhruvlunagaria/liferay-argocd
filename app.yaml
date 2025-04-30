@@ -11,7 +11,7 @@ spec:
   source:
     repoURL: https://github.com/Dhruvlunagaria/liferay-argocd.git
     targetRevision: HEAD
-    path: liferay-basic
+    path: .
   syncPolicy:
     automated:
       prune: true
